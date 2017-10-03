@@ -1,0 +1,30 @@
+{
+	"name": "electron-fork-error",
+	"productName": "Fork Error",
+	"version": "1.0.0",
+	"description": "Simple project to show error on Fork with Electron Builder",
+	"author": "Victor Ivens <victorivens05@gmail.com>",
+	"main": "main.js",
+	"scripts": {
+		"postinstall": "install-app-deps",
+		"start": "electron ./app",
+		"dev": "NODE_ENV='development' npm run start",
+		"dist": "build -w --x64"
+	},
+	"repository": "",
+	"license": "ISC",
+	"devDependencies": {
+		"electron": "~1.6.2",
+		"electron-builder": "^19.30.2",
+		"electron-prebuilt": "~1.2.X",
+		"electron-rebuild": "^1.6.0"
+	},
+	"build": {
+		"appId": "com.electron.forkerror",
+		"productName": "Fork Error",
+		"asar": false,
+		"win": {
+			"icon": "build/icon.ico"
+		}
+	}
+}

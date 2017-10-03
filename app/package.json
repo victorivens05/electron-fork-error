@@ -1,0 +1,13 @@
+{
+	"name": "electron-fork-error",
+	"description": "Simple project to show error on Fork with Electron Builder",
+	"version": "0.0.1",
+	"author": "Victor Ivens <victorivens05@gmail.com>",
+	"main": "main.js",
+	"dependencies": {
+		"express": "^4.15.4"
+	},
+	"devDependencies": {
+		"electron-prebuilt": "^1.4.13"
+	}
+}
